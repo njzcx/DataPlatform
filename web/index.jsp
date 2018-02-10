@@ -53,7 +53,7 @@
 	</div>
 	<div class="footer-w3l">
 		<p class="agileinfo">
-			亿信华辰版权所有 <a href="http://www.esensoft.com" target="_blank">亿信华辰</a>
+			国家税务总局版权所有 <a href="http://www.chinatax.gov.cn/" target="_blank">国家税务总局</a>
 		</p>
 	</div>
 </body>

@@ -14,10 +14,10 @@ jQuery.validator.addMethod("checkPicType", function(value, element) {
 
 jQuery.validator.addMethod("checkPicSize", function(value,element) {
     var fileSize = element.files[0].size;
-    var maxSize = 2*1024*1024;
+    var maxSize = 8*1024*1024;
     if(fileSize > maxSize){
         return false;
     }else{
         return true;
     }
-}, "图片大小不得超过2M");
+}, "图片大小不得超过8M");
