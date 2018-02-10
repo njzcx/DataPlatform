@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.esen.dqy.dao.CompanyInfoDao">
+	<resultMap type="com.esen.dqy.entity.CompanyInfo" id="CompanyMapper">
+		<result column="id_" property="id"/>
+		<result column="groupname_" property="groupname"/>
+		<result column="province_" property="province"/>
+		<result column="city_" property="city"/>
+		<result column="taxdept_" property="taxdept"/>
+		<result column="username_" property="username"/>
+		<result column="department_" property="department"/>
+		<result column="duty_" property="duty"/>
+		<result column="tel_" property="tel"/>
+		<result column="email_" property="email"/>
+		<result column="filename_" property="filename"/>
+	</resultMap>
+	
+	<select id="selectUser" parameterType="int" resultMap="CompanyMapper">
+		SELECT * FROM info_company t where t.id = #{id}
+	</select>
+	
+	<insert id="addUser" parameterType="com.esen.dqy.entity.CompanyInfo">
+        insert into info_company(id_, groupname_, province_, city_, taxdept_, username_, department_, duty_, tel_, email_, filename_)
+        values(#{id},#{groupname},#{province},#{city},#{taxdept},#{username},#{department},#{duty},#{tel},#{email},#{filename})
+    </insert>
+</mapper>
