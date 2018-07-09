@@ -142,11 +142,11 @@
 			<version>5.1.28</version>
 		</dependency>
 		<!-- Oracle数据库驱动 -->
-		<dependency>
+		<!--<dependency>
 			<groupId>com.esen.jdbc</groupId>
 			<artifactId>oracle_ojdbc14</artifactId>
 			<version>1.0.0</version>
-		</dependency>
+		</dependency>-->
   </dependencies>
   
    <repositories>
