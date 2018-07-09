@@ -29,6 +29,7 @@
 <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
 <script>
 	$(document).ready(function() {
+		console.log("Test DevOps");
 		$('.popup-with-zoom-anim').magnificPopup({
 			type : 'inline',
 			fixedContentPos : false,
