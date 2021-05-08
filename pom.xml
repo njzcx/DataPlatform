@@ -9,7 +9,7 @@
 		<spring.version>3.1.3.RELEASE</spring.version>
 		<mybatis-spring.version>1.3.1</mybatis-spring.version>
 		<hibernate.version>3.5.5-Final</hibernate.version>
-		<shiro.version>1.2.3</shiro.version>
+		<shiro.version>1.6.0</shiro.version>
 		<slf4j.version>1.7.2</slf4j.version>
 		<jdk.version>1.5</jdk.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
